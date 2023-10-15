@@ -12,4 +12,15 @@
     <color name="colorAccent">#FF4081</color>
     <color name="background">#EFEFEF</color>
     <color name="placeholder_grey">#AAADC4</color>
+
+    <color name="red">#e23636</color>
+
+    <color name="light_gray">#a2a2a2</color>
+    <color name="highlight_text_color">#2196F3</color>
+
+    <color name="light_black">#191A1C</color>
+    <color name="gray">#A0A0A0</color>
+    <color name="dark_gray">#303136</color>
+    <color name="button_color">#4F535C</color>
+
 </resources>

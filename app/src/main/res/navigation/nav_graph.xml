@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/movieFragment">
+
+    <fragment
+        android:id="@+id/movieFragment"
+        android:name="com.example.moviesapp.ui.MovieFragment"
+        android:label="fragment_movie"
+        tools:layout="@layout/fragment_movie" >
+        <action
+            android:id="@+id/action_movieFragment_to_showFragment"
+            app:destination="@id/showFragment" />
+        <action
+            android:id="@+id/action_movieFragment_to_searchmovieFragment"
+            app:destination="@id/searchmovieFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/showFragment"
+        android:name="com.example.moviesapp.ui.showFragment"
+        android:label="fragment_show"
+        tools:layout="@layout/fragment_show" />
+    <fragment
+        android:id="@+id/movieDetailsFragment"
+        android:name="com.example.moviesapp.ui.MovieDetailsFragment"
+        android:label="fragment_movie_details"
+        tools:layout="@layout/fragment_movie_details" >
+        <action
+            android:id="@+id/action_movieDetailsFragment_to_webFragment"
+            app:destination="@id/webFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="com.example.moviesapp.ui.WebFragment"
+        android:label="fragment_web"
+        tools:layout="@layout/fragment_web" />
+    <fragment
+        android:id="@+id/searchmovieFragment"
+        android:name="com.example.moviesapp.ui.SearchmovieFragment"
+        android:label="fragment_searchmovie"
+        tools:layout="@layout/fragment_searchmovie" /><action android:id="@+id/action_global_movieDetailsFragment" app:destination="@id/movieDetailsFragment"/>
+    <fragment
+        android:id="@+id/savedMoviesFragment2"
+        android:name="com.example.moviesapp.ui.SavedMoviesFragment"
+        android:label="fragment_saved_movies"
+        tools:layout="@layout/fragment_saved_movies" /><action android:id="@+id/action_global_savedMoviesFragment22" app:destination="@id/savedMoviesFragment2"/>
+</navigation>

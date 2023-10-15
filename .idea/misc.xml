@@ -1,0 +1,37 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/drawable/background1.xml" value="0.1" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/drawable/bubblebg.xml" value="0.162" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.1" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/drawable/ic_like_star_24.xml" value="0.1" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/font/audiowide.xml" value="0.20989583333333334" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/font/bangers.xml" value="0.20989583333333334" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/layout/activity_movie_details.xml" value="0.1" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/layout/activity_web_view.xml" value="0.10174418604651163" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/layout/fragment_movie.xml" value="0.1" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/layout/fragment_movie_details.xml" value="0.1" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/layout/fragment_saved_movies.xml" value="0.1796875" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/layout/fragment_searchmovie.xml" value="0.1796875" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/layout/fragment_show.xml" value="0.1796875" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/layout/fragment_web.xml" value="0.1" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/layout/loader_item.xml" value="0.1796875" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/layout/lodder_item.xml" value="0.1" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/layout/moviecard.xml" value="0.1" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/layout/show_item_card.xml" value="0.1" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/menu/appmenu.xml" value="0.1796875" />
+        <entry key="..\:/vjadhao/android-studio-2021.2.1.16-windows/MoviesApp/app/src/main/res/menu/searchmenu.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

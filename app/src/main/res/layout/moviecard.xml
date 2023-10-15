@@ -30,13 +30,16 @@
     </androidx.cardview.widget.CardView>
 
     <LinearLayout
+
+
         android:id="@+id/movie"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="bottom"
         android:layout_marginTop="@dimen/activity_margin"
-        android:background="@android:color/white"
+        android:background="@android:color/background_dark"
         android:orientation="vertical"
+
         android:paddingBottom="@dimen/activity_margin"
         android:paddingEnd="@dimen/activity_margin"
         android:paddingLeft="@dimen/poster_thumb_width"
@@ -45,6 +48,7 @@
         android:paddingTop="@dimen/activity_margin_half">
 
         <TextView
+            android:textColor="@color/white"
             android:id="@+id/movie_year"
             style="@style/TextAppearance.AppCompat.Caption"
             android:layout_width="match_parent"
@@ -58,6 +62,7 @@
             tools:text="2009 | EN"/>
 
         <TextView
+            android:textColor="@color/white"
             android:id="@+id/movie_title"
             style="@style/TextAppearance.AppCompat.Subhead"
             android:layout_width="match_parent"
@@ -66,9 +71,13 @@
             android:layout_marginStart="@dimen/activity_margin_content"
             android:layout_marginTop="@dimen/activity_margin_quarter"
             android:maxLines="1"
+            android:textStyle="bold"
+            android:textSize="20dp"
             tools:text="Movie Title"/>
 
         <TextView
+            android:textSize="16dp"
+            android:textColor="@color/white"
             android:id="@+id/movie_desc"
             style="@style/TextAppearance.AppCompat.Caption"
             android:layout_width="match_parent"
