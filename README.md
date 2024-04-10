@@ -15,10 +15,15 @@ Screenshots
 
 # Installation
 Clone the repository:
+
 bash
+
 Copy code
+
 git clone https://github.com/vjadhao04/Find-your-movies-and-shows 
+
 Open the project in Android Studio.
+
 
 # Build and run the project on an emulator or physical device.
 
